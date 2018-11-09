@@ -8,7 +8,7 @@
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
     
-<img src="images/Cheese.jpg" class="img-responsive">   
+<img src="images/cheeserigtig.jpg" class="img-responsive" alt="Grilled Cheese" witdh="100%">   
     
     
 <h2 class="overskrift_boder"> Grilled Cheese </h2>

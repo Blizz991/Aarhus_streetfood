@@ -8,7 +8,7 @@
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
     
-<img src="images/duckit.jpg" class="img-responsive">   
+<img src="images/duckit.jpg" class="img-responsive" alt="Duck it!" width="100%">   
     
     
 <h2 class="overskrift_boder"> Duck it! </h2>
@@ -51,6 +51,7 @@ Og for at det ikke skal være løgn, så laver Duck It også pomfritter...Stegt 
 </table>
     
 
+   
 </div>
 <?php include("includes/footer.php"); ?>
 
