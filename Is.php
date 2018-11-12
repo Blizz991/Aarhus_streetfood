@@ -6,14 +6,12 @@
 </head>
 <body>
 <?php include("includes/mainNav.php"); ?>
+<img src="images/Popscile.png" class="img-responsive" alt="PopSicle" width="100%">
 <div class="container">
-    
-<img src="images/Popscile.png" class="img-responsive" alt="PopSicle" width="100%">   
     
     
 <h2 class="overskrift_boder"> Popsicle </h2>
     <h4>Lækre is af hjemmelavefløde!</h4>
- 
 <p> Popsicle er hjemmelavede flødeis på pind.  Alle is bliver lavet efter egne opskrifter på den lille is-fabrik bag butikken - kig ind ad ruden og se dem blive tryllet frem! 
 Sorbeten er af frisk frugt, flødeisen af fløde - der er kræset for detaljerne med belgisk chokolade dyp og hjemmebagt pynt. Sortimentet ændrer sig med is-magerens humør.......så kig forbi og lad jer overraske af Popsicles lækre udvalg</p> 
     
