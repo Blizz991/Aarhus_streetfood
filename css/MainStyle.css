@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #subnav-container {
     display: flex;
-    height: 70px;
+    height: 80px;
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -95,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     border: 2px solid;
     margin: auto;
-    margin-top: 8px;
     height: 65px;
     width: 65px;
     box-sizing: border-box;
@@ -275,3 +274,4 @@ footer #footer-open-times-container ul {
     height:100%;
     position: absolute;
 }
+

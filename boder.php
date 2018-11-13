@@ -21,28 +21,28 @@
 
 
         <div class="container_boder">
-            <a title="PopSicle" href="Is.php"><img src="images/Popscile.png" alt="Duck it" class="billede_boder" width="100%" href="Is.php">
+            <a title="PopSicle" href="Is.php"><img src="images/Popscile.png" alt="Popsicle" class="billede_boder" width="100%" href="Is.php">
             <span class="centered_boder"> Popsicle</span></a>
         </div>
 
         <div class="container_boder">
-            <img src="images/cheesecake.png" alt="Duck it" class="billede_boder" width="100%">
+            <img src="images/cheesecake.png" alt="Desserten" class="billede_boder" width="100%">
             <span class="centered_boder"> Desserten</span>
         </div>
 
         <div class="container_boder">
-            <img src="images/juicen.png" alt="Duck it" class="billede_boder" width="100%">
+            <img src="images/juicen.png" alt="Juicen" class="billede_boder" width="100%">
             <span class="centered_boder"> Juicen </span>
         </div>
 
 
         <div class="container_boder">
-            <a  title= Grilled Cheese href="Cheesebod.php"> <img src="images/grilled%20cheese.png" alt="Duck it" class="billede_boder" width="100%" href="Cheesebod.php">
+            <a  title= Grilled Cheese href="Cheesebod.php"> <img src="images/grilled%20cheese.png" alt="Grilled Cheese" class="billede_boder" width="100%" href="Cheesebod.php">
                 <span class="centered_boder"> Grilled Cheese </span> </a>
         </div>
 
         <div class="container_boder">
-            <img src="images/Lapasta.png" alt="Duck it" class="billede_boder" width="100%">
+            <img src="images/Lapasta.png" alt="La Pasta Fresca" class="billede_boder" width="100%">
             <span class="centered_boder"> La Pasta Fresca </span>
         </div>
 
