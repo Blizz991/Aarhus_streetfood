@@ -4,6 +4,12 @@
             <img class="img-responsive" style="height:65px;" src="images/aarhus-streetfood-logo.png" alt="">
         </a>
         <a id="brand-link" href="index.php">Aarhus Streetfood</a>
+        <div id="full-size-menu">
+            <a href="#footer-open-times-container">Åbningstider</a>
+            <a href="praktiskinformation.php#google-maps">Find os</a>
+            <a href="boder.php">Boder</a>
+            <a href="#" title="Ikke implementeret">Bliv en del af streetfood</a>
+        </div>
         <button class="nav-collapse-bar toggle-side-nav">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -20,7 +26,7 @@
         <a href="boder.php" title="Se udvalget af boder" class="subnav-icon">
             <i class="fas fa-2x fa-utensils"></i>
         </a>
-        <a href="Praktiskinformation.php" title="Praktiske informationer" class="subnav-icon">
+        <a href="praktiskinformation.php" title="Praktiske informationer" class="subnav-icon">
             <i class="far fa-2x fa-question-circle"></i>
         </a>
     </nav>
@@ -28,14 +34,15 @@
 
 <!--Only accessible on tablet and mobile-->
 <nav id="side-nav">
-    <button class="toggle-side-nav nav-collapse-bar">
+    <i class="toggle-side-nav fas fa-2x fa-minus-square"></i>
+    <!--<button class="toggle-side-nav nav-collapse-bar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-    </button>
+    </button>-->
     <div id="side-nav-content-container">
         <a href="#footer-open-times-container">Åbningstider</a>
-        <a href="#google-maps">Find os</a>
+        <a href="praktiskinformation.php#google-maps">Find os</a>
         <a href="boder.php">Boder</a>
         <a href="#" title="Ikke implementeret">Bliv en del af streetfood</a>
     </div>

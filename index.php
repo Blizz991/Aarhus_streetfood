@@ -37,15 +37,14 @@
     <!-- Frem og tilbage knapper -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- De runde knapper -->
+    <div id="slider-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 </div>
-<br>
 
-<!-- De runde knapper -->
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
 <!--Slider forside slut-->
 
@@ -57,31 +56,31 @@
         er hjemmelavet.</p>
     <p>Kom forbi som du er og prøv et anderledes måltid mad. Det behøver ikke at være dyrt - du kan sagtens få et måltid
         mad til 50 kroner! </p>
-
-    <div class="container_boder">
-        <a title="Se mulighederne" href="boder.php">
-            <img src="images/Forside/Frontpage_Street_Food_Madboder.jpg" alt=" Mad og drikke" class="billede_boder
+    <div id="index-content-container">
+        <div class="index-single-content-container">
+            <a title="Se mulighederne" href="boder.php">
+                <img src="images/Forside/Frontpage_Street_Food_Madboder.jpg" alt=" Mad og drikke" class="billede_boder
             img-responsive">
-            <span class="centered_boder">Mad og drikke</span>
-        </a>
-    </div>
+                <span class="centered_boder">Mad og drikke</span>
+            </a>
+        </div>
 
-    <div class="container_boder">
-        <a href="Praktiskinformation.php" title="Find information om Aarhus Streetfood">
-            <img src="images/Forside/Frontpage_Praktisk%20Info.jpg" alt="Praktisk info"
-                 class="billede_boder img-responsive">
-        </a>
-        <span class="centered_boder">Praktisk information</span>
-    </div>
+        <div class="index-single-content-container">
+            <a href="praktiskinformation.php" title="Find information om Aarhus Streetfood">
+                <img src="images/Forside/Frontpage_Praktisk%20Info.jpg" alt="Praktisk info"
+                     class="billede_boder img-responsive">
+            </a>
+            <span class="centered_boder">Praktisk information</span>
+        </div>
 
-    <div class="container_boder">
-        <a title="Ansøg nu!" href="Is.php">
-            <img src="images/Forside/Frontpage_Til-kommende-koekkener.jpg" alt="Til kommende køkkener"
-                 class="billede_boder img-responsive">
-            <span class="centered_boder">Til kommende køkkener</span>
-        </a>
+        <div class="index-single-content-container">
+            <a title="Ansøg nu! (IKKE IMPLEMENTERET)" href="#">
+                <img src="images/Forside/Frontpage_Til-kommende-koekkener.jpg" alt="Til kommende køkkener"
+                     class="billede_boder img-responsive">
+                <span class="centered_boder">Til kommende køkkener</span>
+            </a>
+        </div>
     </div>
-
     <h3>Seneste fra Instagram
         <a class="instagram-logo" href="https://www.instagram.com/aarhusstreetfood/"
            target="_blank" title="Aarhus Streetfood på Instragram">
@@ -93,12 +92,10 @@
     <iframe src="https://snapwidget.com/embed/619604" class="snapwidget-widget" allowtransparency="true" frameborder="0"
             scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
 
-    <div id="google-maps">
-        <h3>Find os her</h3>
-        <div class="map-responsive">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.3152265275107!2d10.207394815723934!3d56.15165418066186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f902c893789%3A0x567589dbccff414a!2sAarhus+Street+Food!5e0!3m2!1sda!2sdk!4v1541765436176"
-                    width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+    <h3>Find os her</h3>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.3152265275107!2d10.207394815723934!3d56.15165418066186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f902c893789%3A0x567589dbccff414a!2sAarhus+Street+Food!5e0!3m2!1sda!2sdk!4v1541765436176"
+                width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>
 <?php include("includes/footer.php"); ?>
@@ -123,8 +120,11 @@
         }
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 4000); // Skift billede hvert 4. sekund
     }
+
+    //Use setInterval instead of setTimeout, to prevent other javascript from waiting before it runs...
+    //Moved outside of main function so we don't get recurring function runs!
+    setInterval(showSlides, 4000); // Skift billede hvert 4. sekund
 </script>
 <?php include("includes/afterBodyScripts.php"); ?>
 
