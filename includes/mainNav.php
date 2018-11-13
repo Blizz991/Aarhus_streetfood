@@ -11,27 +11,31 @@
         </button>
     </nav>
     <nav id="subnav-container">
-        <div class="subnav-icon">
-            <i class="fas fa-3x fa-clock"></i>
-        </div>
-        <div class="subnav-icon">
-            <i class="fas fa-3x fa-clock"></i>
-        </div>
-        <div class="subnav-icon">
-            <i class="fas fa-3x fa-clock"></i>
-        </div>
-        <div class="subnav-icon">
-            <i class="fas fa-3x fa-clock"></i>
-        </div>
+        <a href="#footer-open-times-container" title="Åbningstider" class="subnav-icon">
+            <i class="far fa-2x fa-clock"></i>
+        </a>
+        <a href="#google-maps" title="Find vej til os" class="subnav-icon">
+            <i class="fas fa-2x fa-map-marked-alt"></i>
+        </a>
+        <a href="boder.php" title="Se udvalget af boder" class="subnav-icon">
+            <i class="fas fa-2x fa-utensils"></i>
+        </a>
+        <a href="Praktiskinformation.php" title="Praktiske informationer" class="subnav-icon">
+            <i class="far fa-2x fa-question-circle"></i>
+        </a>
     </nav>
 </header>
+
+<!--Only accessible on tablet and mobile-->
 <nav id="side-nav">
-    <a href="#">Hello world!</a>
     <button class="toggle-side-nav nav-collapse-bar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque distinctio dolorum ducimus enim eveniet excepturi ipsam iure, laborum nobis numquam pariatur perferendis placeat porro provident quaerat ut voluptatem.
+    <div id="side-nav-content-container">
+        <a href="#">Hello world!</a>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque distinctio dolorum ducimus enim eveniet excepturi ipsam iure, laborum nobis numquam pariatur perferendis placeat porro provident quaerat ut voluptatem.
+    </div>
 </nav>

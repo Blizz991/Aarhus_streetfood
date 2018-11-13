@@ -6,45 +6,53 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    padding-top:140px;
+    padding-top: 140px;
+}
+
+html {
+    /*Enable smooth scrolling for anchor tags - instead of having the page jumping*/
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container {
     padding:15px;
-    margin-top:140px;
 }
 
-#side-nav{
-    background-color:#3d3d3d;
-    color:#fff;
+#side-nav {
+    background-color: #212121;
+    color: #fff;
 }
 
+    #side-nav-content-container {
+        padding:10px;
+    }
 
 #main-nav {
     width: 100%;
     height: 70px;
-    background-color: #000;
+    background-color: #212121;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
 }
 
 .nav-collapse-bar {
     padding: 12px;
-    background-color: #3d3d3d;
+    background-color:#212121;
     border-radius: 6px;
-    border: 2px solid #6d6d6d;
+    border:2px transparent;
     margin: auto 15px auto auto;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 .skriftpraktiskinfofaq{font-family: 'Roboto', sans-serif;
 font-weight: bold;}
@@ -64,17 +72,19 @@ padding:0;}
     width:100%;
     position:absolute;
 }
+=======
+>>>>>>> 58503cfd4c305b0979f93a4bd6072c5e7a17ff2f
 
 .icon-bar {
     display: block;
-    width: 22px;
+    width: 36px;
     height: 2px;
     border-radius: 1px;
-    background-color: #c8c8c8;
+    background-color:white;
 }
 
 .icon-bar + .icon-bar {
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 #nav-logo {
@@ -82,53 +92,63 @@ padding:0;}
 }
 
 #brand-link {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 10px;
+    text-transform: uppercase;
 }
 
 #subnav-container {
     display: flex;
-    padding: 5px;
-    height: 65px;
-    background-color: #3d3d3d;
-    position:fixed;
-    width:100%;
-    margin-top:70px;
-    top:0;
-}
-
-.subnav-icon {
-    position: relative;
-    justify-content: space-between;
-    background-color: yellow;
-    border-radius: 50%;
-    border: 2px solid greenyellow;
-    margin: auto;
-    height: 100%;
-    width: 65px;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    margin-top: 70px;
+    top: 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
 
-.subnav-icon .fas {
+.subnav-icon {
+    position: relative;
+    justify-content: space-between;
+    background-color: #80bae2;
+    border-radius: 50%;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 8px;
+    height: 65px;
+    width: 65px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color:#fff;
+}
+
+.subnav-icon i {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
 }
 
+.toggle-side-nav {
+    cursor:pointer;
+}
+
 .img-responsive {
     max-width: 100%;
+    padding:0 -15px;
 }
 
 a {
-    color: #E79B9A;
+    color: #fff;
     text-decoration: none;
 }
 
-a:hover{
-    color:#9A5858;
+a:hover {
+    color: #9d9d9d;
 }
 
 .facebook {
@@ -139,14 +159,14 @@ a:hover{
     color: #8b9dc3;
 }
 
-footer{
-    background-color:#4d4d4d;
-    display:flex;
-    min-height:140px;
-    bottom:0;
-    width:100%;
-    color:#fff;
-    padding:30px;
+footer {
+    background-color: #212121;
+    display: flex;
+    min-height: 140px;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -154,62 +174,61 @@ footer{
     -webkit-box-sizing: border-box;
 }
 
-    footer > div{
-        justify-content: space-between;
-        whitespace:wrap;
-        padding:15px;
-        flex-direction:column;
-        flex:1;
-    }
+footer > div {
+    justify-content: space-between;
+    whitespace: wrap;
+    padding: 15px;
+    flex-direction: column;
+    flex: 1;
+}
 
-    footer h5{
-        margin-top:0;
-        font-size:1.4rem;
-    }
+footer h5 {
+    margin-top: 0;
+    font-size: 1.4rem;
+}
 
-    footer #footer-open-times-container{
-        align-items: center;
-    }
+footer #footer-open-times-container {
+    align-items: center;
+}
 
-    footer #footer-open-times-container h5{
-        width: -moz-fit-content;
-        width: -webkit-fit-content;
-        width: -ms-fit-content;
-        width: -o-fit-content;
-        width: fit-content;
-        margin-left:auto;
-        margin-right:auto;
-    }
+footer #footer-open-times-container h5 {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    footer #footer-open-times-container ul{
-        list-style:none;
-        padding:0;
-        /*Force list to fit content instead of being same width as the parent*/
-        width: -moz-fit-content;
-        width: -webkit-fit-content;
-        width: -ms-fit-content;
-        width: -o-fit-content;
-        width: fit-content;
-        margin:auto;
-    }
+footer #footer-open-times-container ul {
+    list-style: none;
+    padding: 0;
+    /*Force list to fit content instead of being same width as the parent*/
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+    width: fit-content;
+    margin: auto;
+}
 
-    #footer-social-media-container{
-        text-align:right;
-    }
+#footer-social-media-container {
+    text-align: right;
+}
 
-    #footer-social-media-container a{
-        color:#fff;
-        padding:0 10px;
-    }
+#footer-social-media-container a {
+    color: #fff;
+    padding: 0 10px;
+}
 
-    #footer-social-media-container a.facebook-logo:hover{
-        color:#9d9d9d;
-    }
+#footer-social-media-container a.facebook-logo:hover {
+    color: #9d9d9d;
+}
 
-    #footer-social-media-container a.instagram-logo:hover{
-        color:#9d9d9d;
-    }
-
+#footer-social-media-container a.instagram-logo:hover {
+    color: #9d9d9d;
+}
 
 .overskrift_boder {
     text-align: center;
@@ -222,34 +241,61 @@ footer{
     color: white;
     font-size: 3rem;
 
-
 }
 
 .centered_boder {
-  background-color: white;
-  color: black;
-  font-size: 10vw;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 10px;
-  width: 50%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: screen;
-    text-shadow: 2px 2p;
-}
+    background-color: white;
+    color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+    text-shadow: 1px 1px;
 }
 
+
+
 .billede_boder {
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.skriftpraktiskinfofaq {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.aabningstidertekstfaq {
+    list-style: none;
+    padding: 0;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    /*Hack to prevent map from displaying over the menu*/
+    z-index:-1;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    position: absolute;
 }
 
      
