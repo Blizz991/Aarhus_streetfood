@@ -52,7 +52,111 @@ h1, h2, h3, h4, h5, h6 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-<<<<<<< HEAD
+
+/* Slider forside */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Skjul billeder som standard */
+.mySlides {
+    display: none;
+}
+
+    .mySlides > .text, .numbertext{
+        text-shadow:2px 2px #000;
+    }
+
+    .mySlides > img{
+        width:100%;
+        max-height:300px;
+    }
+
+/* Frem og tilbage knapper */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Positionér "næste knappen" til højre */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* På hover, tilføj sort baggrundsfarve med lidt see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Teaser tekst */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Nummeret tekst (1/3 osv) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
 
 .skriftpraktiskinfofaq{font-family: 'Roboto', sans-serif;
 font-weight: bold;}
@@ -72,8 +176,6 @@ padding:0;}
     width:100%;
     position:absolute;
 }
-=======
->>>>>>> 58503cfd4c305b0979f93a4bd6072c5e7a17ff2f
 
 .icon-bar {
     display: block;
@@ -99,7 +201,7 @@ padding:0;}
 
 #subnav-container {
     display: flex;
-    height: 70px;
+    height: 80px;
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -117,7 +219,6 @@ padding:0;}
     border-radius: 50%;
     border: 2px solid;
     margin: auto;
-    margin-top: 8px;
     height: 65px;
     width: 65px;
     box-sizing: border-box;
@@ -298,6 +399,21 @@ footer #footer-open-times-container ul {
     position: absolute;
 }
 
-     
+/*All media queries normally used - we've decided to focus on 3 sizes*/
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
+}
+/*@media (min-width:480px) { !* smartphones, Android phones, landscape iPhone *! }*/
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .mySlides > .text, .numbertext, .prev, .next{
+        font-size:1.2em;
+    }
 
+}
+/*@media (min-width:801px) { !* tablet, landscape iPad, lo-res laptops ands desktops *! }*/
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+    .mySlides > .text, .numbertext, .prev, .next{
+        font-size:1.3em;
+    }
+}
+/*@media (min-width:1281px) { !* hi-res laptops and desktops *! }*/
