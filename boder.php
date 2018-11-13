@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <!--Meta tag for madboder-->
+    
+    <meta name="description" content="På Aarhus Street Food kan du få street food fra mange dele af verdenen. Kom forbi som du er og prøv et anderledes måltid mad. Det behøver ikke at være dyrt - du kan sagtens få et måltid
+        mad til 50 kroner!">
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>

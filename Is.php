@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!--Meta tag for Popsicle-->
+    
+    <meta name="description" content="Popsicle er hjemmelavede flødeis på pind. Alle is bliver lavet efter egne opskrifter på den lille is-fabrik bag butikken ">
+    
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>

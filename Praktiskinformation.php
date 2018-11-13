@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <!--Meta tag for praktisk information-->
+    
+    <meta name="description" content="På denne side finder du information omkring parkeringsmuligheder, glemte sager og regler for medbragt mad og drikke.">
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>

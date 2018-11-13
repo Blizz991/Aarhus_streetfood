@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta tag for Grilled Cheese-->
+    
+    <meta name="description" content="Grilled cheese laver sandwiches med ost i friskt bagerbrød med confit de canard, krydret pølse, svampe og stegt aubergine. ">
+    
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>

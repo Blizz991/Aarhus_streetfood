@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta tag for index-->
+    
+    <meta name="description" content="Oplev ægte street food i hjertet af Aarhus med mad og drikke fordelt ud på 25 køkkener og barer. Aarhus Street Food er en
+        gastronomisk iværksætterklynge, hvor der lægges vægt på at kunne servere et ordentligt måltid mad til en fair pris.">
+        <link href="CSS/minstil.css" rel="stylesheet">
+    
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>

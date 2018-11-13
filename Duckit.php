@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!--Meta tag for Duckit-->
+    
+    <meta name="description" content="Hos Duckit kan du få en lækker andeburger, hvor det trevlede andekød er mørt, bollen er blød og salaten sprød.">
+    
+    
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>
