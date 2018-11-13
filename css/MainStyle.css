@@ -235,10 +235,10 @@ footer #footer-open-times-container ul {
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
-    text-shadow: 2px 2px;
+    text-shadow: 1px 1px;
 }
 
-}
+
 
 .billede_boder {
     height: 50%;
