@@ -31,7 +31,7 @@
     </div>
     <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/Forside_Slider/Frontpage_Skål_i_øl.jpg" class="img-responsive">
+        <img src="images/Forside_Slider/Frontpage_Skaal_i_oel.jpg" class="img-responsive">
         <div class="text">Følg med på vores Facebook og Instagram for nyheder og kommende events.</div>
     </div>
     <!-- Frem og tilbage knapper -->
@@ -76,7 +76,7 @@
 
     <div class="container_boder">
         <a title="Ansøg nu!" href="Is.php">
-            <img src="images/Forside/Frontpage_Til-kommende-køkkener.jpg" alt="Til kommende køkkener"
+            <img src="images/Forside/Frontpage_Til-kommende-koekkener.jpg" alt="Til kommende køkkener"
                  class="billede_boder img-responsive">
             <span class="centered_boder">Til kommende køkkener</span>
         </a>
