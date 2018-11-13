@@ -17,7 +17,7 @@
         <a href="#google-maps" title="Find vej til os" class="subnav-icon">
             <i class="fas fa-2x fa-map-marked-alt"></i>
         </a>
-        <a href="#" title="Se udvalget af boder" class="subnav-icon">
+        <a href="boder.php" title="Se udvalget af boder" class="subnav-icon">
             <i class="fas fa-2x fa-utensils"></i>
         </a>
         <a href="Praktiskinformation.php" title="Praktiske informationer" class="subnav-icon">
@@ -25,6 +25,7 @@
         </a>
     </nav>
 </header>
+
 <!--Only accessible on tablet and mobile-->
 <nav id="side-nav">
     <button class="toggle-side-nav nav-collapse-bar">
