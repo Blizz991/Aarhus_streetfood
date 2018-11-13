@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <!--Meta tag for index-->
-    
+
     <meta name="description" content="Oplev ægte street food i hjertet af Aarhus med mad og drikke fordelt ud på 25 køkkener og barer. Aarhus Street Food er en
         gastronomisk iværksætterklynge, hvor der lægges vægt på at kunne servere et ordentligt måltid mad til en fair pris.">
-        <link href="CSS/minstil.css" rel="stylesheet">
-    
+    <link href="CSS/minstil.css" rel="stylesheet">
+
     <!--Meta tags for index-->
 
     <?php include("includes/headerScripts.php"); ?>
@@ -19,19 +19,19 @@
     <!-- Full-width billeder angivet med nummer og teaser tekst -->
     <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="images/3002.jpg" class="img-responsive"
+        <img src="images/Forside_Slider/Frontpage_Street_Food.jpg" class="img-responsive">
         <div class="text">Kom ned og oplev hyggen i garagen! Vi har åbent alle dage fra klokken 11.30.</div>
     </div>
     <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/320.jpg" class="img-responsive">
+        <img src="images/Forside_Slider/Frontpage_Frokost_pause.jpg" class="img-responsive">
         <div class="text">Oplev ægte street food i hjertet af Aarhus med mad og drikke fordelt ud på 25 køkkener og
             barer.
         </div>
     </div>
     <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/3001.jpg" class="img-responsive">
+        <img src="images/Forside_Slider/Frontpage_Skål_i_øl.jpg" class="img-responsive">
         <div class="text">Følg med på vores Facebook og Instagram for nyheder og kommende events.</div>
     </div>
     <!-- Frem og tilbage knapper -->
@@ -59,23 +59,35 @@
         mad til 50 kroner! </p>
 
     <div class="container_boder">
-        <a title="Duck it" href="boder.php"> <img src="images/duckit.png" alt="Mad og drikke"
-                                                  class="billede_boder img-responsive">
-            <span class="centered_boder">Mad og drikke</span> </a>
+        <a title="Se mulighederne" href="boder.php">
+            <img src="images/Forside/Frontpage_Street_Food_Madboder.jpg" alt=" Mad og drikke" class="billede_boder
+            img-responsive">
+            <span class="centered_boder">Mad og drikke</span>
+        </a>
     </div>
 
     <div class="container_boder">
-        <a title="PopSicle" href="Is.php"><img src="images/Popscile.png" alt="Til kommende køkkener"
-                                               class="billede_boder img-responsive" href="Is.php">
-            <span class="centered_boder">Til kommende køkkener</span></a>
-    </div>
-
-    <div class="container_boder">
-        <img src="images/cheesecake.png" alt="Praktisk info" class="billede_boder img-responsive">
+        <a href="Praktiskinformation.php" title="Find information om Aarhus Streetfood">
+            <img src="images/Forside/Frontpage_Praktisk%20Info.jpg" alt="Praktisk info"
+                 class="billede_boder img-responsive">
+        </a>
         <span class="centered_boder">Praktisk information</span>
     </div>
 
-    <h3>Seneste fra Instagram <a class="instagram-logo" href="https://www.instagram.com/aarhusstreetfood/" target="_blank" title="Aarhus Streetfood på Instragram"><i class="fab fa-instagram"></i></a></h3>
+    <div class="container_boder">
+        <a title="Ansøg nu!" href="Is.php">
+            <img src="images/Forside/Frontpage_Til-kommende-køkkener.jpg" alt="Til kommende køkkener"
+                 class="billede_boder img-responsive">
+            <span class="centered_boder">Til kommende køkkener</span>
+        </a>
+    </div>
+
+    <h3>Seneste fra Instagram
+        <a class="instagram-logo" href="https://www.instagram.com/aarhusstreetfood/"
+           target="_blank" title="Aarhus Streetfood på Instragram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </h3>
     <!-- SnapWidget for instagram integration -->
     <script src="https://snapwidget.com/js/snapwidget.js"></script>
     <iframe src="https://snapwidget.com/embed/619604" class="snapwidget-widget" allowtransparency="true" frameborder="0"

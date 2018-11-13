@@ -13,7 +13,7 @@
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
     
-<img src="images/duckit.jpg" class="img-responsive" alt="Duck it!" width="100%">   
+<img src="images/Seperate_boder/Duckit_duckit.jpg" class="img-responsive" alt="Duck it!" width="100%">
     
     
 <h2 class="overskrift_boder"> Duck it! </h2>

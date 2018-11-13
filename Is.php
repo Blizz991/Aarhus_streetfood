@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include("includes/mainNav.php"); ?>
-<img src="images/Popscile.png" class="img-responsive" alt="PopSicle" width="100%">
+<img src="images/Seperate_boder/Popsicle_Popsicle.jpg" class="img-responsive" alt="PopSicle" width="100%">
 <div class="container">
     
     
