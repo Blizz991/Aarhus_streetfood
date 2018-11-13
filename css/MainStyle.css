@@ -456,6 +456,13 @@ footer h5 {
 
     .text{
         bottom:60px;
+        width: -moz-fit-content;
+        width: -webkit-fit-content;
+        width: -ms-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        left: 50%;
+        transform: translate(-50%);
     }
 
     #slider-dots{
@@ -529,6 +536,7 @@ footer h5 {
 
     .text{
         bottom:70px;
+        font-size:1.8em;
     }
 
     #slider-dots {
