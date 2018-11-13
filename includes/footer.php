@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 <footer id="footer-container">
-    <div>
+    <div id="footer-contact-container">
         <h5 class="footer-title">Kontakt</h5>
         <p><i class="fas fa-phone-square"></i> <a href=""></a>1234 5678</p>
         <p><i class="fas fa-envelope"></i> <a

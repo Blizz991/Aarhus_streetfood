@@ -25,10 +25,18 @@ h1, h2, h3, h4, h5, h6 {
 #side-nav {
     background-color: #212121;
     color: #fff;
+    height:auto !important;
 }
 
     #side-nav-content-container {
         padding:10px;
+    }
+
+    #side-nav a{
+        width:100%;
+        display:block;
+        font-size:1.2em;
+        padding:5px;
     }
 
 #main-nav {
@@ -115,6 +123,8 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 8px;
     width: 100%;
     text-align: center;
+    /*background-color:rgba(90,90,90,0.6);*/
+    display:none;
 }
 
 /* Nummeret tekst (1/3 osv) */
@@ -286,16 +296,9 @@ footer > div {
     flex: 1;
 }
 
-footer h5 {
+footer h5{
     margin-top: 0;
     font-size: 1.4rem;
-}
-
-footer #footer-open-times-container {
-    align-items: center;
-}
-
-footer #footer-open-times-container h5 {
     width: -moz-fit-content;
     width: -webkit-fit-content;
     width: -ms-fit-content;
@@ -305,7 +308,7 @@ footer #footer-open-times-container h5 {
     margin-right: auto;
 }
 
-footer #footer-open-times-container ul {
+#footer-open-times-container ul {
     list-style: none;
     padding: 0;
     /*Force list to fit content instead of being same width as the parent*/
@@ -318,7 +321,7 @@ footer #footer-open-times-container ul {
 }
 
 #footer-social-media-container {
-    text-align: right;
+    text-align: center;
 }
 
 #footer-social-media-container a {
@@ -350,7 +353,7 @@ footer #footer-open-times-container ul {
 .centered_boder {
     background-color: white;
     color: black;
-    font-size: 10vw;
+    font-size: 8vw;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
@@ -361,7 +364,6 @@ footer #footer-open-times-container ul {
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
-    text-shadow: 1px 1px;
 }
 
 
@@ -385,6 +387,11 @@ footer #footer-open-times-container ul {
     padding: 0;
 }
 
+#google-maps{
+    min-height:150px;
+    display:block;
+}
+
 .map-responsive {
     overflow: hidden;
     padding-bottom: 40%;
@@ -402,16 +409,37 @@ footer #footer-open-times-container ul {
     position: absolute;
 }
 
-<<<<<<< HEAD
-=======
 /*All media queries normally used - we've decided to focus on 3 sizes*/
-@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-
-}
+/*@media (min-width:320px) { !* smartphones, portrait iPhone, portrait 480x320 phones (Android) *!}*/
 /*@media (min-width:480px) { !* smartphones, Android phones, landscape iPhone *! }*/
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     .mySlides > .text, .numbertext, .prev, .next{
         font-size:1.2em;
+        display:block;
+    }
+
+    #footer-contact-container h5{
+        text-align:left;
+        margin-left: ;:0;
+    }
+
+    footer #footer-open-times-container h5{
+        width: -moz-fit-content;
+        width: -webkit-fit-content;
+        width: -ms-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer-social-media-container{
+        text-align:right;
+    }
+
+    #footer-social-media-container h5{
+        margin-right:0;
+        text-align:right;
     }
 
 }
@@ -419,7 +447,7 @@ footer #footer-open-times-container ul {
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
     .mySlides > .text, .numbertext, .prev, .next{
         font-size:1.3em;
+        display:block;
     }
 }
 /*@media (min-width:1281px) { !* hi-res laptops and desktops *! }*/
->>>>>>> 3185a73b29a1597c59cb1e1b3ab7940bb7b87432
