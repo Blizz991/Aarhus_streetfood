@@ -1,8 +1,8 @@
 <!-- FOOTER -->
-<footer>
+<footer id="footer-container">
     <div>
         <h5 class="footer-title">Kontakt</h5>
-        <p><i class="fas fa-phone-square"></i> 1234 5678</p>
+        <p><i class="fas fa-phone-square"></i> <a href=""></a>1234 5678</p>
         <p><i class="fas fa-envelope"></i> <a
                     href="mailto:kontakt@aarhusstreetfood.dk?Subject=Kontakt%Aarhus%Streetfood"
                     title="Skriv mail til Aarhus Streetfood" target="_top">kontakt@aarhusstreetfood.dk</a></p>

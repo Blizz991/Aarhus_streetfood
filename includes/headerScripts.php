@@ -13,7 +13,8 @@
 <link rel="mask-icon" href="safari-pinned-tab.svg" color="#467595">
 <meta name="msapplication-TileColor" content="#467595">
 <meta name="theme-color" content="#467595">
-<!--Main css and fontawesome icons-->
+<!--Main css, fontawesome icons, fonts from Google and css for Jquery UI-->
 <link rel="stylesheet" href="css/MainStyle.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">

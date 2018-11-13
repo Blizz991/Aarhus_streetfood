@@ -9,6 +9,11 @@ body {
     padding-top: 140px;
 }
 
+html {
+    /*Enable smooth scrolling for anchor tags - instead of having the page jumping*/
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
@@ -255,14 +260,17 @@ footer #footer-open-times-container ul {
 
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 40%;
     position: relative;
     height: 0;
+    /*Hack to prevent map from displaying over the menu*/
+    z-index:-1;
 }
 
 .map-responsive iframe {
     left: 0;
     top: 0;
     width: 100%;
+    height:100%;
     position: absolute;
 }

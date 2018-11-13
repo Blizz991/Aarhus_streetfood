@@ -11,18 +11,18 @@
         </button>
     </nav>
     <nav id="subnav-container">
-        <div class="subnav-icon">
+        <a href="#footer-open-times-container" title="Åbningstider" class="subnav-icon">
             <i class="far fa-2x fa-clock"></i>
-        </div>
-        <div class="subnav-icon">
+        </a>
+        <a href="#google-maps" title="Find vej til os" class="subnav-icon">
             <i class="fas fa-2x fa-map-marked-alt"></i>
-        </div>
-        <div class="subnav-icon">
+        </a>
+        <a href="#" title="Se udvalget af boder" class="subnav-icon">
             <i class="fas fa-2x fa-utensils"></i>
-        </div>
-        <div class="subnav-icon">
+        </a>
+        <a href="Praktiskinformation.php" title="Praktiske informationer" class="subnav-icon">
             <i class="far fa-2x fa-question-circle"></i>
-        </div>
+        </a>
     </nav>
 </header>
 <!--Only accessible on tablet and mobile-->
