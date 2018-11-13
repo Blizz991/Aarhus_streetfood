@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index:999;
 }
 
 .nav-collapse-bar {
@@ -62,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
     position: relative;
     margin-top: 10px;
+    z-index:1;
 }
 
 /* Skjul billeder som standard */
@@ -210,6 +212,7 @@ padding:0;}
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    z-index:999;
 }
 
 .subnav-icon {
