@@ -38,10 +38,12 @@
         <li>Søndag 11.30 - 21.00</li>
     </ul>
 
-    <p><span class="skriftpraktiskinfofaq">Find os her </span></p>
-    <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.3152265275107!2d10.207394815723934!3d56.15165418066186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f902c893789%3A0x567589dbccff414a!2sAarhus+Street+Food!5e0!3m2!1sda!2sdk!4v1541765436176"
-                width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div id="google-maps">
+        <p><span class="skriftpraktiskinfofaq">Find os her </span></p>
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.3152265275107!2d10.207394815723934!3d56.15165418066186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f902c893789%3A0x567589dbccff414a!2sAarhus+Street+Food!5e0!3m2!1sda!2sdk!4v1541765436176"
+                    width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </div>
 
 </div>

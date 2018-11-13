@@ -14,7 +14,7 @@
         <a href="#footer-open-times-container" title="Åbningstider" class="subnav-icon">
             <i class="far fa-2x fa-clock"></i>
         </a>
-        <a href="#google-maps" title="Find vej til os" class="subnav-icon">
+        <a href="praktiskinformation.php#google-maps" title="Find vej til os" class="subnav-icon">
             <i class="fas fa-2x fa-map-marked-alt"></i>
         </a>
         <a href="boder.php" title="Se udvalget af boder" class="subnav-icon">
@@ -34,8 +34,9 @@
         <span class="icon-bar"></span>
     </button>
     <div id="side-nav-content-container">
-        <a href="#">Hello world!</a>
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque distinctio dolorum ducimus enim eveniet excepturi ipsam iure, laborum nobis numquam pariatur perferendis placeat porro provident quaerat ut voluptatem.
+        <a href="#footer-open-times-container">Åbningstider</a>
+        <a href="#google-maps">Find os</a>
+        <a href="boder.php">Boder</a>
+        <a href="#" title="Ikke implementeret">Bliv en del af streetfood</a>
     </div>
 </nav>
