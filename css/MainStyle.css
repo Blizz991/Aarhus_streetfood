@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 36px;
     height: 2px;
     border-radius: 1px;
-    background-color: #c8c8c8;
+    background-color:white;
 }
 
 .icon-bar + .icon-bar {
@@ -93,8 +93,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     background-color: #80bae2;
     border-radius: 50%;
-    border: 2px solid #6d6d6d;
+    border: 2px solid;
     margin: auto;
+    margin-top: 8px;
     height: 65px;
     width: 65px;
     box-sizing: border-box;
