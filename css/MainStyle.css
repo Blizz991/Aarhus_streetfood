@@ -402,6 +402,8 @@ footer #footer-open-times-container ul {
     position: absolute;
 }
 
+<<<<<<< HEAD
+=======
 /*All media queries normally used - we've decided to focus on 3 sizes*/
 @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
@@ -420,3 +422,4 @@ footer #footer-open-times-container ul {
     }
 }
 /*@media (min-width:1281px) { !* hi-res laptops and desktops *! }*/
+>>>>>>> 3185a73b29a1597c59cb1e1b3ab7940bb7b87432
