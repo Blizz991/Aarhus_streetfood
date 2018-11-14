@@ -3,7 +3,8 @@
 <head>
     <!--Meta tag for Popsicle-->
 
-    <meta name="description" content="Popsicle er hjemmelavede flødeis på pind. Alle is bliver lavet efter egne opskrifter på den lille is-fabrik bag butikken ">
+    <meta name="description"
+          content="Popsicle er hjemmelavede flødeis på pind. Alle is bliver lavet efter egne opskrifter på den lille is-fabrik bag butikken ">
 
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
@@ -11,13 +12,18 @@
 <body>
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
-    <h1 class="overskrift_boder"> Popsicle </h1>
+    <div class="bod-main-img-container">
+        <img srcset="images/Seperate_boder/1170x300/Popsicle_Popsicle.jpg 1170w, images/Seperate_boder/600x154/Popsicle_Popsicle.jpg 600w" class="img-responsive" alt="PopSicle">
+        <h1 class="overskrift_boder"> Popsicle </h1>
+    </div>
     <div class="bod-container">
         <div class="bod-info-container">
-            <img src="images/Seperate_boder/Popsicle_Popsicle.jpg" class="img-responsive" alt="PopSicle">
             <h4>Lækre is af hjemmelavefløde!</h4>
-            <p> Popsicle er hjemmelavede flødeis på pind. Alle is bliver lavet efter egne opskrifter på den lille is-fabrik bag butikken - kig ind ad ruden og se dem blive tryllet frem!
-                Sorbeten er af frisk frugt, flødeisen af fløde - der er kræset for detaljerne med belgisk chokolade dyp og hjemmebagt pynt. Sortimentet ændrer sig med is-magerens humør.......så kig forbi og lad jer overraske af Popsicles lækre udvalg</p>
+            <p> Popsicle er hjemmelavede flødeis på pind. Alle is bliver lavet efter egne opskrifter på den lille
+                is-fabrik bag butikken - kig ind ad ruden og se dem blive tryllet frem!
+                Sorbeten er af frisk frugt, flødeisen af fløde - der er kræset for detaljerne med belgisk chokolade dyp
+                og hjemmebagt pynt. Sortimentet ændrer sig med is-magerens humør.......så kig forbi og lad jer overraske
+                af Popsicles lækre udvalg</p>
         </div>
         <div class="menu-table-container">
             <h3 class="menu-title"> Menukort</h3>

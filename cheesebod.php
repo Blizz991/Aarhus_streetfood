@@ -3,7 +3,8 @@
 <head>
     <!--Meta tag for Grilled Cheese-->
 
-    <meta name="description" content="Grilled cheese laver sandwiches med ost i friskt bagerbrød med confit de canard, krydret pølse, svampe og stegt aubergine. ">
+    <meta name="description"
+          content="Grilled cheese laver sandwiches med ost i friskt bagerbrød med confit de canard, krydret pølse, svampe og stegt aubergine. ">
 
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
@@ -11,14 +12,18 @@
 <body>
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
-    <h1 class="overskrift_boder"> Grilled Cheese </h1>
+    <div class="bod-main-img-container">
+        <img srcset="images/Seperate_boder/1170x300/GrilledCheese_GrilledCheese.jpg 1170w, images/Seperate_boder/600x154/GrilledCheese_GrilledCheese.jpg 600w" class="img-responsive" alt="Grilled Cheese">
+        <h1 class="overskrift_boder"> Grilled Cheese </h1>
+    </div>
     <div class="bod-container">
         <div class="bod-info-container">
-            <img src="images/Seperate_boder/GrilledCheese_GrilledCheese.jpg" class="img-responsive" alt="Grilled Cheese">
             <h4>Smeltet ost i rigelige mængder - behøver vi sige mere?</h4>
-             
-            <p> Grilled cheese laver sandwiches med ost - lækker blød varm smeltet ost - og friskt bagerbrød, confit de canard, krydret pølse, svampe og stegt aubergine. 
-                Det er lækre og veltillavede ingredienser lukket inde i en mundvandsfremkaldende lomme af ost og brød. Perfekt til at kurere tømmermændene, til at tage sulten, til at runde aftenen af med, til at....ja, faktisk perfekt til alt!</p>
+            <p> Grilled cheese laver sandwiches med ost - lækker blød varm smeltet ost - og friskt bagerbrød, confit de
+                canard, krydret pølse, svampe og stegt aubergine. 
+                Det er lækre og veltillavede ingredienser lukket inde i en mundvandsfremkaldende lomme af ost og brød.
+                Perfekt til at kurere tømmermændene, til at tage sulten, til at runde aftenen af med, til at....ja,
+                faktisk perfekt til alt!</p>
         </div>
         <div class="menu-table-container">
             <h3 class="menu-title"> Menukort</h3>

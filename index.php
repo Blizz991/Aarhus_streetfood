@@ -19,19 +19,19 @@
     <!-- Full-width billeder angivet med nummer og teaser tekst -->
     <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="images/Forside_Slider/Frontpage_Street_Food.jpg" class="img-responsive">
+        <img srcset="images/Forside_Slider/600x338/Frontpage_Street_Food.jpg 600w, images/Forside_Slider/1600x900/Frontpage_Street_Food.jpg 601w" class="img-responsive">
         <div class="text">Kom ned og oplev hyggen i garagen! Vi har åbent alle dage fra klokken 11.30.</div>
     </div>
     <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/Forside_Slider/Frontpage_Frokost_pause.jpg" class="img-responsive">
+        <img srcset="images/Forside_Slider/600x338/Frontpage_Frokost_pause.jpg 600w ,images/Forside_Slider/1600x900/Frontpage_Frokost_pause.jpg 601w" class="img-responsive">
         <div class="text">Oplev ægte street food i hjertet af Aarhus med mad og drikke fordelt ud på 25 køkkener og
             barer.
         </div>
     </div>
     <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/Forside_Slider/Frontpage_Skaal_i_oel.jpg" class="img-responsive">
+        <img srcset="images/Forside_Slider/600x338/Frontpage_Skaal_i_oel.jpg 600w, images/Forside_Slider/1600x900/Frontpage_Skaal_i_oel.jpg" class="img-responsive">
         <div class="text">Følg med på vores Facebook og Instagram for nyheder og kommende events.</div>
     </div>
     <!-- Frem og tilbage knapper -->
@@ -49,17 +49,21 @@
 <!--Slider forside slut-->
 
 <div class="container">
-    <h2>Hvad er Aarhus Street Food?</h2>
-    <p>Aarhus Street Food er et madmarked placeret i hjertet af Aarhus ved Rutebilstationen. Aarhus Street Food er en
-        gastronomisk iværksætterklynge, hvor kokke, madører o.lign kan prøve lykken af som chef i eget køkken. Der
-        lægges vægt på diversitet og originalitet og det er centralt, at køkkenenerne bruger friske råvarer og at maden
-        er hjemmelavet.</p>
-    <p>Kom forbi som du er og prøv et anderledes måltid mad. Det behøver ikke at være dyrt - du kan sagtens få et måltid
-        mad til 50 kroner! </p>
+    <div id="index-info-text-container">
+        <h2>Hvad er Aarhus Street Food?</h2>
+        <p>Aarhus Street Food er et madmarked placeret i hjertet af Aarhus ved Rutebilstationen. Aarhus Street Food er
+            en
+            gastronomisk iværksætterklynge, hvor kokke, madører o.lign kan prøve lykken af som chef i eget køkken. Der
+            lægges vægt på diversitet, originalitet. Det er centralt, køkkenenerne bruger friske råvarer og at
+            maden
+            er hjemmelavet.</p>
+        <p>Kom forbi som du er, og prøv et anderledes måltid mad. Det behøver ikke at være dyrt - du kan sagtens få et
+            måltid mad til 50 kroner! </p>
+    </div>
     <div id="index-content-container">
         <div class="index-single-content-container">
             <a title="Se mulighederne" href="boder.php">
-                <img src="images/Forside/Frontpage_Street_Food_Madboder.jpg" alt=" Mad og drikke" class="billede_boder
+                <img srcset="images/Forside/600x338/Frontpage_Street_Food_Madboder.jpg 600w, images/Forside/1170x568/Frontpage_Street_Food_Madboder.jpg 601w" alt=" Mad og drikke" class="billede_boder
             img-responsive">
                 <span class="centered_boder">Mad og drikke</span>
             </a>
@@ -67,7 +71,7 @@
 
         <div class="index-single-content-container">
             <a href="praktiskinformation.php" title="Find information om Aarhus Streetfood">
-                <img src="images/Forside/Frontpage_Praktisk%20Info.jpg" alt="Praktisk info"
+                <img srcset="images/Forside/600x338/Frontpage_Praktisk-Info.jpg ,images/Forside/1170x568/Frontpage_Praktisk-Info.jpg 601w" alt="Praktisk info"
                      class="billede_boder img-responsive">
             </a>
             <span class="centered_boder">Praktisk information</span>
@@ -75,7 +79,7 @@
 
         <div class="index-single-content-container">
             <a title="Ansøg nu! (IKKE IMPLEMENTERET)" href="#">
-                <img src="images/Forside/Frontpage_Til-kommende-koekkener.jpg" alt="Til kommende køkkener"
+                <img srcset="images/Forside/600x338/Frontpage_Til-kommende-koekkener.jpg 600w, images/Forside/1170x568/Frontpage_Til-kommende-koekkener.jpg 601w" alt="Til kommende køkkener"
                      class="billede_boder img-responsive">
                 <span class="centered_boder">Til kommende køkkener</span>
             </a>

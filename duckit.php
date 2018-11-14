@@ -3,7 +3,8 @@
 <head>
     <!--Meta tag for Duckit-->
 
-    <meta name="description" content="Hos Duckit kan du få en lækker andeburger, hvor det trevlede andekød er mørt, bollen er blød og salaten sprød.">
+    <meta name="description"
+          content="Hos Duckit kan du få en lækker andeburger, hvor det trevlede andekød er mørt, bollen er blød og salaten sprød.">
 
 
     <?php include("includes/headerScripts.php"); ?>
@@ -12,12 +13,16 @@
 <body>
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
-    <h1 class="overskrift_boder"> Duck it! </h1>
+    <div class="bod-main-img-container">
+        <img srcset="images/Seperate_boder/1170x300/Duckit_duckit.jpg 1170w, images/Seperate_boder/600x154/Duckit_duckit.jpg 600w" class="img-responsive" alt="Duck it!">
+        <h1 class="overskrift_boder"> Duck it! </h1>
+    </div>
     <div class="bod-container">
         <div class="bod-info-container">
-            <img src="images/Seperate_boder/Duckit_duckit.jpg" class="img-responsive" alt="Duck it!">
             <h4>And i alt hvad de laver - behøver vi sige mere?</h4>
-            <p> Der er noget særligt ved smagen af and. De fleste kender den nok fra juletid, og det er som om, at Duck It har suget al hyggen ud af julen og puttet den ned i én feel good-burger. Det trevlede andekød er mørt, bollen er blød og salaten er sprød.
+            <p> Der er noget særligt ved smagen af and. De fleste kender den nok fra juletid, og det er som om, at Duck
+                It har suget al hyggen ud af julen og puttet den ned i én feel good-burger. Det trevlede andekød er
+                mørt, bollen er blød og salaten er sprød.
                 Med andre ord: Den er så awesome og velsmagende at det næsten er forbryderisk.
 
                 Og for at det ikke skal være løgn, så laver Duck It også pomfritter...Stegt i andefedt!</p>

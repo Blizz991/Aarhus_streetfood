@@ -34,7 +34,8 @@ $(document).ready(function () {
         if (location.hash) shiftWindow();
     });
     //Enable tooltips from Jquery UI (uses title)
-    $(function () {
+    //Disabled due to issues with IOS (requires double click on mobile)
+    /*$(function () {
         $(document).tooltip();
-    });
+    });*/
 });
