@@ -4,7 +4,8 @@
 <head>
     <!--Meta tag for praktisk information-->
 
-    <meta name="description" content="På denne side finder du information omkring parkeringsmuligheder, glemte sager og regler for medbragt mad og drikke.">
+    <meta name="description"
+          content="På denne side finder du information omkring parkeringsmuligheder, glemte sager og regler for medbragt mad og drikke.">
     <?php include("includes/headerScripts.php"); ?>
     <title>Aarhus Streetfood</title>
 </head>
@@ -12,28 +13,34 @@
 <body>
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
-
-    <h1>Praktisk information</h1>
+    <h1 id="praktisk-info-title">Praktisk information</h1>
     <div id="praktisk-information-container">
         <div id="praktisk-info-left-text-container">
-            <p><span class="skriftpraktiskinfofaq">Parkering:</span> Der er 150 betalings parkeringpladser lige bag Garagen med
+            <p><span class="skriftpraktiskinfofaq">Parkering:</span> Der er 150 betalings parkeringpladser lige bag
+                Garagen med
                 garanteret plads til din bil.</p>
-            <p><span class="skriftpraktiskinfofaq">Reservationer:</span> Vi tager ikke mod reservationer længere grundet øget
-                travlhed i Garagen. Er I et større selskab bør I komme inden kl 17.30 eller efter 20.00 - så skulle det være
+            <p><span class="skriftpraktiskinfofaq">Reservationer:</span> Vi tager ikke mod reservationer længere grundet
+                øget
+                travlhed i Garagen. Er I et større selskab bør I komme inden kl 17.30 eller efter 20.00 - så skulle det
+                være
                 muligt finde et par langborde eller fire - også selvom de ikke er reserverede til jer!</p>
 
-            <p><span class="skriftpraktiskinfofaq">Prisleje:</span> Køkkenet skal sælge minimum et mættende måltid til 50 kr.
+            <p><span class="skriftpraktiskinfofaq">Prisleje:</span> Køkkenet skal sælge minimum et mættende måltid til
+                50 kr.
             </p>
 
-            <p><span class="skriftpraktiskinfofaq">Medbragt mad, drikkevarer og hund:</span> Der må ikke medbringes egen mad
+            <p><span class="skriftpraktiskinfofaq">Medbragt mad, drikkevarer og hund:</span> Der må ikke medbringes egen
+                mad
                 eller drikkevarer i Garagen.
                 Søde og rare hunde i snor er til gengæld meget velkomne.</p>
         </div>
         <div id="praktisk-info-right-text-container">
-            <p><span class="skriftpraktiskinfofaq">Glemte sager: </span> Henvend dig i den hvide E45 bar placeret i indgangen
+            <p><span class="skriftpraktiskinfofaq">Glemte sager: </span> Henvend dig i den hvide E45 bar placeret i
+                indgangen
             </p>
 
-            <p><span class="skriftpraktiskinfofaq">Kvalitet: </span>det er centralt at køkkenet bruger friske råvarer, gerne i
+            <p><span class="skriftpraktiskinfofaq">Kvalitet: </span>det er centralt at køkkenet bruger friske råvarer,
+                gerne i
                 sæson og at maden er hjemmelavet. </p>
 
             <ul class="aabningstidertekstfaq">
@@ -52,8 +59,6 @@
                     width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
-</div>
-
 </div>
 <?php include("includes/footer.php"); ?>
 
