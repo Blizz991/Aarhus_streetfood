@@ -19,7 +19,7 @@
                 <span class="centered_boder"> Duck it!</span> </a>
         </div>
         <div class="container_boder">
-            <a title="PopSicle" href="Is.php"><img srcset="images/Madboder/600x337/Madboder_Popsicle.jpg 600w, images/Madboder/1170x658/Madboder_Popsicle.jpg 601w" alt="Popsicle" class="billede_boder" width="100%">
+            <a title="PopSicle" href="is.php"><img srcset="images/Madboder/600x337/Madboder_Popsicle.jpg 600w, images/Madboder/1170x658/Madboder_Popsicle.jpg 601w" alt="Popsicle" class="billede_boder" width="100%">
                 <span class="centered_boder"> Popsicle</span></a>
         </div>
         <div class="container_boder">

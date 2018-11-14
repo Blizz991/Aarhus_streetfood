@@ -73,8 +73,8 @@
             <a href="praktiskinformation.php" title="Find information om Aarhus Streetfood">
                 <img srcset="images/Forside/600x338/Frontpage_Praktisk-Info.jpg ,images/Forside/1170x568/Frontpage_Praktisk-Info.jpg 601w" alt="Praktisk info"
                      class="billede_boder img-responsive">
-            </a>
             <span class="centered_boder">Praktisk information</span>
+            </a>
         </div>
 
         <div class="index-single-content-container">

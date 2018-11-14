@@ -607,6 +607,7 @@ footer h5 {
     }
 
     #index-info-text-container{
+        padding:5px;
     }
 
     #index-info-text-container h1{
@@ -697,6 +698,11 @@ footer h5 {
 
     #footer-social-media-container{
         text-align:right;
+    }
+
+    #praktisk-info-title{
+        margin-bottom: 0;
+        padding: 15px;
     }
 }
 

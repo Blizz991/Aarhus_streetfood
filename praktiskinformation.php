@@ -12,8 +12,7 @@
 <body>
 <?php include("includes/mainNav.php"); ?>
 <div class="container">
-
-    <h1>Praktisk information</h1>
+    <h1 id="praktisk-info-title">Praktisk information</h1>
     <div id="praktisk-information-container">
         <div id="praktisk-info-left-text-container">
             <p><span class="skriftpraktiskinfofaq">Parkering:</span> Der er 150 betalings parkeringpladser lige bag Garagen med
