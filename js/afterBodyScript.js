@@ -16,7 +16,7 @@ $(document).ready(function () {
             var targetOffset = ($(id).offset().top -150);
             //Smoothly scroll to the element
             $('html,body').animate({scrollTop: targetOffset}, -150);
-            //Highlight the element for 1.5 seconds to attract attention (Function from Jquery UI)
+            //Highlight the element for 2 seconds to attract attention (Function from Jquery UI)
             $(id).effect("highlight", {color: "#7d7d7d"}, 2000);
         });
     })(jQuery);
